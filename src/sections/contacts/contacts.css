@@ -1,0 +1,55 @@
+.mr-masolov-contacts {
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.mr-masolov-contacts form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+
+    width: 100%;
+    max-width: 600px;
+
+    color: #080f5b;
+}
+
+.mr-masolov-contacts form textarea {
+    height: 80px;
+}
+
+.mr-masolov-contacts form input::placeholder,
+.mr-masolov-contacts form textarea::placeholder {
+    color: #080f5b;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mr-masolov-contacts form input,
+.mr-masolov-contacts form textarea,
+.mr-masolov-contacts form button {
+    border: 1px solid;
+    outline: none;
+
+    padding: 4px;
+}
+
+.mr-masolov-contacts form button {
+    background-color: #15db95;
+    color: #080f5b;
+    border: none;
+    
+    cursor: pointer;
+
+    transition: .4s ease;
+}
+
+.mr-masolov-contacts form button:hover {
+    background-color: #0d9464;
+    color: #0d19a3;
+}

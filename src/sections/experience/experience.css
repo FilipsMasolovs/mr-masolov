@@ -1,0 +1,42 @@
+.mr-masolov-experience-block {
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.mr-masolov-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    gap: 4px;
+    padding: 8px;
+    color: #080f5b;
+}
+
+.mr-masolov-experience img,
+.mr-masolov-experience svg {
+    width: 200px;
+}
+
+.mr-masolov-experience a {
+    color: #15db95;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.mr-masolov-experience a.company-logo {
+    display: flex;
+    flex: 1;
+}
+
+.mr-masolov-experience a:hover {
+    color: #0d9464;
+}
