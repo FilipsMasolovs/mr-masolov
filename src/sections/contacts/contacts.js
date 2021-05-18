@@ -6,7 +6,7 @@ import { useForm, ValidationError } from '@formspree/react';
 function ContactForm() {
     const [state, handleSubmit] = useForm("mnqlpzag");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <p>Thanks you for your message!</p>;
     }
     return (
         <form onSubmit={handleSubmit}>
@@ -28,7 +28,20 @@ export default function Contacts() {
                 </div>
             </div>
             <div className='mr-masolov-contacts'>
-                <ContactForm /> 
+                <div className='mr-masolov-contacts--form-wrapper'>
+                    <p>
+                        I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.
+                    </p>
+                    <ContactForm /> 
+                </div>
+                <div className='mr-masolov-contacts--map-wrapper'>
+                    <div>
+                        <span>Filips Masolovs</span>
+                        <span>Liela iela 14-15</span>
+                        <span>Jelgava, Latvia</span>
+                        <span>LV-3001</span>
+                    </div>
+                </div>
             </div>
         </>
     );

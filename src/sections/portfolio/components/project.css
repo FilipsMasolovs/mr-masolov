@@ -8,6 +8,7 @@
 }
 
 .mr-masolov-project:hover h3::after {
+    transition-delay: .8s;
     transform: translate(-20%, 4px);
 }
 
@@ -46,7 +47,7 @@
     top: calc(100% - 44px);
     bottom: 0;
 
-    transition: top .4s ease;
+    transition: top .8s ease;
 
     display: flex;
     flex-direction: column;

@@ -4,6 +4,7 @@
     padding: 16px;
     margin: auto;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
 }
@@ -12,7 +13,7 @@
     display: flex;
     flex-direction: column;
 
-    gap: 8px;
+    gap: 16px;
 
     width: 100%;
     max-width: 600px;
@@ -21,7 +22,8 @@
 }
 
 .mr-masolov-contacts form textarea {
-    height: 80px;
+    resize: none;
+    height: 160px;
 }
 
 .mr-masolov-contacts form input::placeholder,
@@ -33,15 +35,15 @@
 .mr-masolov-contacts form input,
 .mr-masolov-contacts form textarea,
 .mr-masolov-contacts form button {
+    color: #080f5b;
     border: 1px solid;
     outline: none;
 
-    padding: 4px;
+    padding: 8px;
 }
 
 .mr-masolov-contacts form button {
     background-color: #15db95;
-    color: #080f5b;
     border: none;
     
     cursor: pointer;
@@ -52,4 +54,37 @@
 .mr-masolov-contacts form button:hover {
     background-color: #0d9464;
     color: #0d19a3;
+}
+
+.mr-masolov-contacts--form-wrapper,
+.mr-masolov-contacts--map-wrapper {
+    width: 100%;
+}
+
+.mr-masolov-contacts--map-wrapper {
+    padding: 16px;
+    background-image: url('./assets/map.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.mr-masolov-contacts--map-wrapper div {
+    display: inline-flex;
+    flex-direction: column;
+
+    background: rgba(0,0,0,.9);
+    color: #fff;
+
+    padding: 8px;
+}
+
+.mr-masolov-contacts--form-wrapper p {
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 450px) {
+    .mr-masolov-contacts--form-wrapper,
+    .mr-masolov-contacts--map-wrapper {
+        width: calc(50% - 4px);
+    }
 }

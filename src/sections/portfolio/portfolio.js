@@ -37,7 +37,7 @@ export default function Portfolio() {
                 />
                 <Project 
                     title='KravasParvadajumi.lv'
-                    description='My very first website. Basic HTML, CSS and some JS.'
+                    description='My very first coded website. Basic HTML, CSS and some JS.'
                     backgroundImage={KravasParvadajumi}
                     liveSite='http://www.kravasparvadajumi.lv/'
                     gitHub='https://github.com/FilipsMasolovs/grivika-kravas-parvadajumi'

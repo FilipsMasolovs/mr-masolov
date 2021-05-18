@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     align-self: stretch;
-    gap: 4px;
+    gap: 8px;
     padding: 8px;
     color: #080f5b;
 }

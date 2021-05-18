@@ -1,4 +1,5 @@
-.mr-masolov-skills {
+.mr-masolov-skills,
+.mr-masolov-skills--description  {
     width: 100%;
     max-width: 1200px;
     padding: 16px;
@@ -15,4 +16,12 @@
     width: 100%;
     max-width: 80px;
     height: fit-content;
+
+    cursor: pointer;
+
+    transition: transform .4s ease;
+}
+
+.mr-masolov-skills img:hover {
+    transform: scale(1.1);
 }
