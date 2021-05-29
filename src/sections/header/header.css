@@ -1,102 +1,94 @@
 .mr-masolov-header,
 .mr-masolov-navigation {
-    width: 100%;
-    background-color: #0d19a3;
-    color: #ffffff;
-
-    font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background-color: #0d19a3;
+  color: #ffffff;
 }
 
 .mr-masolov-header {
-    display: flex;
-    height: 100vh;
-
-    overflow: hidden;
-    position: relative;
+  display: flex;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+  position: relative;
 }
 
 .mr-masolov-header-inner,
 .mr-masolov-navigation-inner {
-    width: 100%;
-    max-width: 1200px;
-    padding: 16px;
-    margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 16px;
+  margin: auto;
 }
 
 .mr-masolov-header-inner h1 {
-    font-weight: 600;
-    font-size: 3rem;
-    color: #15db95;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #15db95;
 }
 .mr-masolov-header-inner h3 {
-    font-weight: 400;
-    font-size: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 .mr-masolov-navigation {
-    border-top: 4px solid #080f5b;
-    position: fixed;
-    top: 0;
-
-    z-index: 10;
+  background-color: #080f5b;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .mr-masolov-navigation-inner {
-    color: #15db95;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    font-family: 'Roboto', sans-serif;
+  color: #15db95;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.mr-masolov-navigation-inner span {
-    color: #15db95;
-    cursor: pointer;
-    text-decoration: none;
-    transition: color .2s ease;
+.mr-masolov-navigation-inner h3 {
+  color: #15db95;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-.mr-masolov-navigation-inner span:hover,
-.mr-masolov-navigation-inner span:focus {
-    color: #0d9464;
+.mr-masolov-navigation-inner h3:hover,
+.mr-masolov-navigation-inner h3:focus {
+  color: #0d9464;
 }
 
 .mr-masolov-navigation-inner--logo {
-    width: 48px;
-    cursor: pointer;
+  width: 48px;
+  cursor: pointer;
 }
 
 .mr-masolov-navigation-inner--menu {
-    display: flex;
-    gap: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 .mr-masolov-header-inner--accent1,
 .mr-masolov-header-inner--accent2,
 .mr-masolov-header-inner--accent3 {
-    position: absolute;
-    background-color: #080f5b;
-
-    width: 200%;
-    height: 50%;
-
-    right: 0;
+  position: absolute;
+  background-color: #080f5b;
+  width: 200%;
+  height: 50%;
+  right: 0;
 }
 
 .mr-masolov-header-inner--accent1 {
-    transform: skewY(-14deg);
-    top: 90%;
-    opacity: 0.2;
+  transform: skewY(-14deg);
+  top: 96%;
+  opacity: 0.2;
 }
 
 .mr-masolov-header-inner--accent2 {
-    transform: skewY(-12deg);
-    top: 92%;
-    opacity: 0.4;
+  transform: skewY(-12deg);
+  top: 98%;
+  opacity: 0.4;
 }
 
 .mr-masolov-header-inner--accent3 {
-    transform: skewY(-10deg);
-    top: 94%;
+  transform: skewY(-10deg);
+  top: 100%;
 }

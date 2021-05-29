@@ -1,9 +1,11 @@
 .mr-masolov-projects {
-    width: 100%;
-    max-width: 1200px;
-    padding: 16px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 16px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  height: calc(100vh - 142px);
 }

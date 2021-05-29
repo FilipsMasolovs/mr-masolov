@@ -1,48 +1,63 @@
-import './contacts.css'
+import "./contacts.css";
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
-
-function ContactForm() {
-    const [state, handleSubmit] = useForm("mnqlpzag");
-    if (state.succeeded) {
-        return <p>Thanks you for your message!</p>;
-    }
+function ContactForm(props) {
+  const [state, handleSubmit] = useForm("mnqlpzag");
+  if (state.succeeded) {
     return (
-        <form onSubmit={handleSubmit}>
-            <input id="email" type="email" name="email" placeholder="Email" />
-            <ValidationError prefix="Email" field="email" errors={state.errors} />
-            <textarea id="message" name="message" placeholder='Message' />
-            <ValidationError prefix="Message" field="message" errors={state.errors} />
-            <button type="submit" disabled={state.submitting}>Submit</button>
-        </form>
+      <p>
+        Thank you <strong>{props.visitorName}</strong>, for your message!
+        <br />
+        I'll get back to you shortly.
+      </p>
     );
   }
+  return (
+    <form onSubmit={handleSubmit}>
+      <input id="email" type="email" name="email" placeholder="Email" />
+      <ValidationError prefix="Email" field="email" errors={state.errors} />
+      <textarea id="message" name="message" placeholder="Message" />
+      <ValidationError prefix="Message" field="message" errors={state.errors} />
+      <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
+  );
+}
 
-export default function Contacts() {
-    return (
-        <>
-            <div id='contacts' className='mr-masolov-section-heading'>
-                <div className='mr-masolov-section-heading-inner'>
-                    <h2>Contacts</h2>
-                </div>
-            </div>
-            <div className='mr-masolov-contacts'>
-                <div className='mr-masolov-contacts--form-wrapper'>
-                    <p>
-                        I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.
-                    </p>
-                    <ContactForm /> 
-                </div>
-                <div className='mr-masolov-contacts--map-wrapper'>
-                    <div>
-                        <span>Filips Masolovs</span>
-                        <span>Liela iela 14-15</span>
-                        <span>Jelgava, Latvia</span>
-                        <span>LV-3001</span>
-                    </div>
-                </div>
-            </div>
-        </>
-    );
+export default function Contacts(props) {
+  return (
+    <>
+      <div id="contacts" className="mr-masolov-section-heading">
+        <div className="mr-masolov-section-heading-inner">
+          <h2>Contacts</h2>
+        </div>
+      </div>
+      <div className="mr-masolov-contacts">
+        <div className="mr-masolov-contacts--form-wrapper">
+          <p>
+            <i className="fa fa-phone" /> (+371) 2 9823196
+          </p>
+          <p>
+            <i className="fa fa-envelope" /> filips.masolovs@gmail.com
+          </p>
+          <p>
+            I’m interested in freelance opportunities – especially ambitious or
+            large projects. However, if you have other request or question,
+            don’t hesitate to use the form.
+          </p>
+          <ContactForm visitorName={props.visitorName} />
+        </div>
+        <div className="mr-masolov-contacts--map-wrapper">
+          <div>
+            <span>Filips Masolovs</span>
+            <span>Liela iela 14-15</span>
+            <span>Jelgava, Latvia</span>
+            <span>LV-3001</span>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
