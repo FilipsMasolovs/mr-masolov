@@ -19,6 +19,7 @@
 .mr-masolov-skills img {
   width: 100%;
   max-width: 80px;
+  max-height: 120px;
   height: fit-content;
   cursor: pointer;
   transition: transform 0.4s ease;
