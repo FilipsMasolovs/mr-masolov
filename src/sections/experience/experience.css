@@ -6,21 +6,27 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 16px;
-  height: calc(100vh - 142px);
+  min-height: calc(100vh - 142px);
 }
 
 .mr-masolov-experience {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 16px;
+}
+
+.mr-masolov-experience:first-child {
+  margin-bottom: 16px;
 }
 
 .mr-masolov-experience div {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  margin: 0 0 16px 0;
+}
+
+.mr-masolov-experience div h4 {
+  margin: 8px 0 16px;
 }
 
 .mr-masolov-experience svg {
@@ -47,5 +53,9 @@
 @media only screen and (min-width: 450px) {
   .mr-masolov-experience {
     flex-direction: row;
+  }
+
+  .mr-masolov-experience div {
+    margin: 0 16px 0 0;
   }
 }

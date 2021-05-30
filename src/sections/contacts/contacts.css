@@ -7,14 +7,12 @@
   align-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 16px;
-  height: calc(100vh - 193px);
+  min-height: calc(100vh - 193px);
 }
 
 .mr-masolov-contacts form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
   width: 100%;
   max-width: 600px;
 }
@@ -22,6 +20,7 @@
 .mr-masolov-contacts form textarea {
   resize: none;
   height: 160px;
+  margin: 16px 0;
 }
 
 .mr-masolov-contacts form input::placeholder,
@@ -56,6 +55,10 @@
   width: 100%;
 }
 
+.mr-masolov-contacts--form-wrapper {
+  margin: 0 0 16px;
+}
+
 .mr-masolov-contacts--map-wrapper {
   padding: 16px;
   background-image: url("./assets/map.png");
@@ -79,5 +82,9 @@
   .mr-masolov-contacts--form-wrapper,
   .mr-masolov-contacts--map-wrapper {
     width: calc(50% - 8px);
+  }
+
+  .mr-masolov-contacts--form-wrapper {
+    margin: 0 16px 0 0;
   }
 }

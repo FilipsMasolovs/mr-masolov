@@ -49,6 +49,7 @@
   cursor: pointer;
   text-decoration: none;
   transition: color 0.2s ease;
+  margin-left: 16px;
 }
 
 .mr-masolov-navigation-inner h3:hover,
@@ -62,8 +63,7 @@
 }
 
 .mr-masolov-navigation-inner--menu {
-  display: flex;
-  gap: 16px;
+  display: none;
 }
 
 .mr-masolov-header-inner--accent1,
@@ -91,4 +91,10 @@
 .mr-masolov-header-inner--accent3 {
   transform: skewY(-10deg);
   top: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .mr-masolov-navigation-inner--menu {
+    display: flex;
+  }
 }
