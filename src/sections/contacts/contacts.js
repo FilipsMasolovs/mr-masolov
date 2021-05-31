@@ -6,11 +6,17 @@ function ContactForm(props) {
   const [state, handleSubmit] = useForm("mnqlpzag");
   if (state.succeeded) {
     return (
-      <p>
-        Thank you <strong>{props.visitorName}</strong>, for your message!
-        <br />
-        I'll get back to you shortly.
-      </p>
+      <div className="mr-masolo-contacts--form-success">
+        <p>
+          Thank you{" "}
+          <strong>
+            {props.visitorName ? props.visitorName : "Mystery Man"}
+          </strong>
+          , for your message!
+          <br />
+          I'll get back to you shortly.
+        </p>
+      </div>
     );
   }
   return (
@@ -41,6 +47,24 @@ export default function Contacts(props) {
           </p>
           <p>
             <i className="fa fa-envelope" /> filips.masolovs@gmail.com
+          </p>
+          <p>
+            <a
+              className="mr-masolov-contacts--social"
+              href="https://www.linkedin.com/in/filips-masolovs-46068474/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-linkedin fa-2x" />
+            </a>
+            <a
+              className="mr-masolov-contacts--social"
+              href="https://github.com/FilipsMasolovs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-github fa-2x" />{" "}
+            </a>
           </p>
           <p>
             I’m interested in freelance opportunities – especially ambitious or

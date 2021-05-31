@@ -78,6 +78,27 @@
   margin-bottom: 16px;
 }
 
+.mr-masolov-contacts--social {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  margin: 0 16px 0 0;
+  color: #ffffff;
+}
+
+.mr-masolov-contacts--social:hover,
+.mr-masolov-contacts--social:focus {
+  color: #15db95;
+}
+
+.mr-masolo-contacts--form-success {
+  background-color: #15db95;
+  padding: 8px;
+}
+
+.mr-masolo-contacts--form-success p {
+  margin: 0;
+}
+
 @media only screen and (min-width: 450px) {
   .mr-masolov-contacts--form-wrapper,
   .mr-masolov-contacts--map-wrapper {

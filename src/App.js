@@ -12,7 +12,7 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       visitorName: "",
-      interactionStarted: false,
+      interactionStarted: sessionStorage.getItem("mrMasolovVisitorName"),
     };
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleButtonClick = this.handleButtonClick.bind(this);
@@ -27,6 +27,7 @@ export default class App extends React.Component {
 
   handleEnterPress(e) {
     if (e.key === "Enter") {
+      sessionStorage.setItem("mrMasolovVisitorName", this.state.visitorName);
       this.setState({
         interactionStarted: true,
       });
@@ -34,6 +35,7 @@ export default class App extends React.Component {
   }
 
   handleButtonClick() {
+    sessionStorage.setItem("mrMasolovVisitorName", this.state.visitorName);
     this.setState({
       interactionStarted: true,
     });
