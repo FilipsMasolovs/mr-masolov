@@ -35,7 +35,7 @@ function ContactForm(props) {
 export default function Contacts(props) {
   return (
     <>
-      <div id="contacts" className="mr-masolov-section-heading">
+      <div className="mr-masolov-section-heading" id="contacts">
         <div className="mr-masolov-section-heading-inner">
           <h2>Contacts</h2>
         </div>

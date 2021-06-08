@@ -63,11 +63,15 @@ export default class App extends React.Component {
     if (this.state.interactionStarted) {
       content = (
         <>
-          <Header />
+          <Header
+            visitorName={sessionStorage.getItem("mrMasolovVisitorName")}
+          />
           <Experience />
           <Portfolio />
           <Skills />
-          <Contacts visitorName={this.state.visitorName} />
+          <Contacts
+            visitorName={sessionStorage.getItem("mrMasolovVisitorName")}
+          />
           <Footer />
         </>
       );
