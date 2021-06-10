@@ -9,6 +9,10 @@ import SKETCH from "./assets/sketch.png";
 import WP from "./assets/wp.png";
 import GITLAB from "./assets/gitlab.png";
 import VUE from "./assets/vue.png";
+import SASS from "./assets/sass.png";
+import LESS from "./assets/less.png";
+import POSTCSS from "./assets/postcss.png";
+import BROWSERSTACK from "./assets/browserstack.png";
 import React from "react";
 
 export default class Skills extends React.Component {
@@ -30,6 +34,14 @@ export default class Skills extends React.Component {
             </div>
           </div>
           <div>
+            <h3>CSS preprocessors I am familiar with:</h3>
+            <div className="mr-masolov-skills--logos">
+              <img src={SASS} alt="Sass" title="Sass" />
+              <img src={LESS} alt="Less" title="Less" />
+              <img src={POSTCSS} alt="PostCSS" title="PostCSS" />
+            </div>
+          </div>
+          <div>
             <h3>JavaScript frameworks I am familiar with:</h3>
             <div className="mr-masolov-skills--logos">
               <img src={REACT} alt="React.JS" title="React.JS" />
@@ -44,6 +56,7 @@ export default class Skills extends React.Component {
               <img src={SKETCH} alt="Sketch" title="Sketch" />
               <img src={WP} alt="WordPress" title="WordPress" />
               <img src={PYTHON} alt="Python" title="Python" />
+              <img src={BROWSERSTACK} alt="BrowserStack" title="BrowserStack" />
             </div>
           </div>
         </div>
