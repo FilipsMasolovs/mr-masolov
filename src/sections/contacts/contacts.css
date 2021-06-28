@@ -7,7 +7,7 @@
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: calc(100vh - 193px);
+    min-height: calc(100vh - 142px);
 }
 
 .mr-masolov-contacts form {
