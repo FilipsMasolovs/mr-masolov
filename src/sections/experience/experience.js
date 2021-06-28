@@ -22,6 +22,8 @@ export default function Experience() {
                             </a>
                         </h3>
                         <h4>June 2021 - Present</h4>
+                        {/*TODO*/}
+                        {/*Add a description of what I did while working at ECENTA*/}
                     </div>
                     <a
                         className="company-logo"
@@ -52,12 +54,8 @@ export default function Experience() {
                             </a>
                         </h3>
                         <h4>August 2019 - June 2021</h4>
-                        <p>
-                            Visual Composer is the best drag and drop frontend editor that
-                            gives you design tools of WordPress page builder & website builder
-                            (premium) to create a business site, portfolio, landing page, or
-                            blog. No coding required!
-                        </p>
+                        {/*TODO*/}
+                        {/*Add a description of what I did while working at Visual Composer*/}
                     </div>
                     <a
                         className="company-logo"
