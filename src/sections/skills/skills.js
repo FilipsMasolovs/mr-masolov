@@ -55,7 +55,6 @@ export default class Skills extends React.Component {
                             <img src={GITLAB} alt="GitLab" title="GitLab"/>
                             <img src={SKETCH} alt="Sketch" title="Sketch"/>
                             <img src={WP} alt="WordPress" title="WordPress"/>
-                            <img src={PYTHON} alt="Python" title="Python"/>
                             <img src={BROWSERSTACK} alt="BrowserStack" title="BrowserStack"/>
                         </div>
                     </div>
