@@ -1,31 +1,31 @@
 .mr-masolov-skills {
-  width: 100%;
-  max-width: 1200px;
-  padding: 16px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  min-height: calc(100vh - 142px);
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: calc(100vh - 142px);
 }
 
 .mr-masolov-skills--logos {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .mr-masolov-skills img {
-  width: 100%;
-  height: auto;
-  max-width: 80px;
-  max-height: 120px;
-  cursor: pointer;
-  transition: transform 0.4s ease;
-  margin: 8px;
+    width: 100%;
+    height: auto;
+    max-width: 80px;
+    max-height: 120px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    margin: 8px;
 }
 
 .mr-masolov-skills img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }

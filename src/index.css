@@ -4,124 +4,125 @@
 *,
 *:active,
 *::before {
-  box-sizing: border-box;
-  user-select: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
 }
 
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 html,
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #080f5b;
-  color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    background-color: #080f5b;
+    color: #ffffff;
 }
 
 .mr-masolov-section-heading {
-  width: 100%;
-  background-color: #e4c580;
-  color: #ffffff;
+    width: 100%;
+    background-color: #e4c580;
+    color: #ffffff;
 }
 
 .mr-masolov-section-heading-inner {
-  max-width: 1200px;
-  padding: 16px;
-  margin: auto;
-  line-height: 30px;
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+    line-height: 30px;
 }
 
 body::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #15db95;
+    background-color: #15db95;
 }
 
 .mr-masolov-greeting {
-  background-color: #0d19a3;
-  color: #ffffff;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
+    background-color: #0d19a3;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .mr-masolov-greeting-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 16px;
 }
 
 .mr-masolov-greeting input {
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid #ffffff;
-  padding: 8px;
-  outline: none;
-  color: #15db95;
-  width: 100%;
-  font-size: 24px;
-  margin: 16px 0;
-  border-radius: 0;
-  font-family: "Montserrat", sans-serif;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    padding: 8px;
+    outline: none;
+    color: #15db95;
+    width: 100%;
+    font-size: 24px;
+    margin: 16px 0;
+    border-radius: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .mr-masolov-greeting button {
-  background-color: transparent;
-  border: 2px solid #15db95;
-  border-radius: 16px;
-  padding: 8px 16px;
-  outline: none;
-  color: #15db95;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  z-index: 200;
+    background-color: transparent;
+    border: 2px solid #15db95;
+    border-radius: 16px;
+    padding: 8px 16px;
+    outline: none;
+    color: #15db95;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 200;
 }
 
 .mr-masolov-greeting button:hover,
 .mr-masolov-greeting button:focus {
-  color: #0d9464;
-  border-color: #0d9464;
+    color: #0d9464;
+    border-color: #0d9464;
 }
 
 .mr-masolov-greeting--accent1,
 .mr-masolov-greeting--accent2,
 .mr-masolov-greeting--accent3 {
-  position: absolute;
-  background-color: #080f5b;
+    position: absolute;
+    background-color: #080f5b;
 
-  width: 200%;
-  height: 50%;
+    width: 200%;
+    height: 50%;
 
-  right: 0;
+    right: 0;
 }
 
 .mr-masolov-greeting--accent1 {
-  transform: skewY(-14deg);
-  top: calc(96% - 80px);
-  opacity: 0.2;
+    transform: skewY(-14deg);
+    top: calc(96% - 80px);
+    opacity: 0.2;
 }
 
 .mr-masolov-greeting--accent2 {
-  transform: skewY(-12deg);
-  top: calc(98% - 80px);
-  opacity: 0.4;
+    transform: skewY(-12deg);
+    top: calc(98% - 80px);
+    opacity: 0.4;
 }
 
 .mr-masolov-greeting--accent3 {
-  transform: skewY(-10deg);
-  top: calc(100% - 80px);
+    transform: skewY(-10deg);
+    top: calc(100% - 80px);
 }

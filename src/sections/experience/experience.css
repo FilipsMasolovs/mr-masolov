@@ -1,61 +1,61 @@
 .mr-masolov-experience-block {
-  width: 100%;
-  max-width: 1200px;
-  padding: 16px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: calc(100vh - 142px);
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 142px);
 }
 
 .mr-masolov-experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .mr-masolov-experience:first-child {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .mr-masolov-experience div {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 16px 0;
 }
 
 .mr-masolov-experience div h4 {
-  margin: 8px 0 16px;
+    margin: 8px 0 16px;
 }
 
 .mr-masolov-experience svg {
-  width: 160px;
-  height: auto;
-  transition: transform 0.4s ease;
-  fill: #fff;
+    width: 160px;
+    height: auto;
+    transition: transform 0.4s ease;
+    fill: #fff;
 }
 
 .mr-masolov-experience svg:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .mr-masolov-experience a {
-  color: #15db95;
-  text-decoration: none;
-  transition: color 0.2s ease;
+    color: #15db95;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .mr-masolov-experience a:hover {
-  color: #0d9464;
+    color: #0d9464;
 }
 
 @media only screen and (min-width: 450px) {
-  .mr-masolov-experience {
-    flex-direction: row;
-  }
+    .mr-masolov-experience {
+        flex-direction: row;
+    }
 
-  .mr-masolov-experience div {
-    margin: 0 16px 0 0;
-  }
+    .mr-masolov-experience div {
+        margin: 0 16px 0 0;
+    }
 }

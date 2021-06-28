@@ -1,111 +1,111 @@
 .mr-masolov-contacts {
-  width: 100%;
-  max-width: 1200px;
-  padding: 16px;
-  margin: auto;
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  min-height: calc(100vh - 193px);
+    width: 100%;
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 193px);
 }
 
 .mr-masolov-contacts form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
 }
 
 .mr-masolov-contacts form textarea {
-  resize: none;
-  height: 160px;
-  margin: 16px 0;
+    resize: none;
+    height: 160px;
+    margin: 16px 0;
 }
 
 .mr-masolov-contacts form input::placeholder,
 .mr-masolov-contacts form textarea::placeholder {
-  color: #080f5b;
-  font-family: "Montserrat", sans-serif;
+    color: #080f5b;
+    font-family: "Montserrat", sans-serif;
 }
 
 .mr-masolov-contacts form input,
 .mr-masolov-contacts form textarea,
 .mr-masolov-contacts form button {
-  color: #080f5b;
-  border: 1px solid;
-  outline: none;
-  padding: 8px;
+    color: #080f5b;
+    border: 1px solid;
+    outline: none;
+    padding: 8px;
 }
 
 .mr-masolov-contacts form button {
-  background-color: #15db95;
-  border: none;
-  cursor: pointer;
-  transition: 0.4s ease;
+    background-color: #15db95;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
 }
 
 .mr-masolov-contacts form button:hover {
-  background-color: #0d9464;
-  color: #0d19a3;
+    background-color: #0d9464;
+    color: #0d19a3;
 }
 
 .mr-masolov-contacts--form-wrapper,
 .mr-masolov-contacts--map-wrapper {
-  width: 100%;
+    width: 100%;
 }
 
 .mr-masolov-contacts--form-wrapper {
-  margin: 0 0 16px;
+    margin: 0 0 16px;
 }
 
 .mr-masolov-contacts--map-wrapper {
-  padding: 16px;
-  background-image: url("./assets/map.png");
-  background-size: cover;
-  background-position: center;
+    padding: 16px;
+    background-image: url("./assets/map.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .mr-masolov-contacts--map-wrapper div {
-  display: inline-flex;
-  flex-direction: column;
-  background: rgba(0, 0, 0, 0.9);
-  color: #fff;
-  padding: 8px;
+    display: inline-flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 8px;
 }
 
 .mr-masolov-contacts--form-wrapper p {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .mr-masolov-contacts--social {
-  cursor: pointer;
-  transition: color 0.4s ease;
-  margin: 0 16px 0 0;
-  color: #ffffff;
+    cursor: pointer;
+    transition: color 0.4s ease;
+    margin: 0 16px 0 0;
+    color: #ffffff;
 }
 
 .mr-masolov-contacts--social:hover,
 .mr-masolov-contacts--social:focus {
-  color: #15db95;
+    color: #15db95;
 }
 
 .mr-masolo-contacts--form-success {
-  background-color: #15db95;
-  padding: 8px;
+    background-color: #15db95;
+    padding: 8px;
 }
 
 .mr-masolo-contacts--form-success p {
-  margin: 0;
+    margin: 0;
 }
 
 @media only screen and (min-width: 450px) {
-  .mr-masolov-contacts--form-wrapper,
-  .mr-masolov-contacts--map-wrapper {
-    width: calc(50% - 8px);
-  }
+    .mr-masolov-contacts--form-wrapper,
+    .mr-masolov-contacts--map-wrapper {
+        width: calc(50% - 8px);
+    }
 
-  .mr-masolov-contacts--form-wrapper {
-    margin: 0 16px 0 0;
-  }
+    .mr-masolov-contacts--form-wrapper {
+        margin: 0 16px 0 0;
+    }
 }

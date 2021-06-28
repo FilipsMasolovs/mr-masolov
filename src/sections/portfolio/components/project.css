@@ -1,124 +1,124 @@
 .mr-masolov-project {
-  width: 100%;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  margin: 0 0 16px 0;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0 16px 0;
 }
 
 .mr-masolov-project:last-child {
-  margin: 0;
+    margin: 0;
 }
 
 .mr-masolov-project:hover h3::after {
-  transition-delay: 0.8s;
-  transform: translate(-20%, 4px);
+    transition-delay: 0.8s;
+    transform: translate(-20%, 4px);
 }
 
 .mr-masolov-project:hover .mr-masolov-project-inner--content {
-  top: 0;
+    top: 0;
 }
 
 .mr-masolov-project h3 {
-  color: #15db95;
-  margin-bottom: 8px;
+    color: #15db95;
+    margin-bottom: 8px;
 }
 
 .mr-masolov-project h3::after {
-  content: "";
-  background-color: #15db95;
-  height: 4px;
-  width: 100%;
-  display: block;
-  border-radius: 2px;
-  transform: translate(-80%, 4px);
-  transition: transform 0.8s ease;
+    content: "";
+    background-color: #15db95;
+    height: 4px;
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    transform: translate(-80%, 4px);
+    transition: transform 0.8s ease;
 }
 
 .mr-masolov-project-inner {
-  padding-bottom: 100%;
-  color: #ffffff;
-  position: relative;
+    padding-bottom: 100%;
+    color: #ffffff;
+    position: relative;
 }
 
 .mr-masolov-project-inner--content {
-  padding: 8px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #000000);
-  position: absolute;
-  top: calc(100% - 44px);
-  bottom: 0;
-  transition: top 0.8s ease;
-  display: flex;
-  flex-direction: column;
+    padding: 8px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #000000);
+    position: absolute;
+    top: calc(100% - 44px);
+    bottom: 0;
+    transition: top 0.8s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .mr-masolov-project-inner--content p {
-  flex: 1;
+    flex: 1;
 }
 
 .mr-masolov-project-inner--content-actions {
-  display: flex;
-  margin-top: 4px;
+    display: flex;
+    margin-top: 4px;
 }
 
 .mr-masolov-project-inner--content-actions a {
-  color: #ffffff;
-  text-decoration: none;
-  padding: 4px 8px;
-  border: 2px solid #ffffff;
-  border-radius: 16px;
-  transition: 0.4s ease;
-  display: flex;
-  align-items: center;
-  margin-right: 4px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 8px;
+    border: 2px solid #ffffff;
+    border-radius: 16px;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
 }
 
 .mr-masolov-project-inner--content-actions a:hover {
-  color: #15db95;
-  border-color: #15db95;
+    color: #15db95;
+    border-color: #15db95;
 }
 
 .mr-masolov-project-inner--content-actions a svg {
-  margin-right: 4px;
-  fill: #ffffff;
+    margin-right: 4px;
+    fill: #ffffff;
 }
 
 @media only screen and (min-width: 450px) {
-  .mr-masolov-project {
-    width: calc(50% - 8px);
-  }
+    .mr-masolov-project {
+        width: calc(50% - 8px);
+    }
 
-  .mr-masolov-project:first-child {
-    margin: 0 16px 16px 0;
-  }
+    .mr-masolov-project:first-child {
+        margin: 0 16px 16px 0;
+    }
 
-  .mr-masolov-project:nth-child(2) {
-    margin: 0 0 16px 0;
-  }
+    .mr-masolov-project:nth-child(2) {
+        margin: 0 0 16px 0;
+    }
 
-  .mr-masolov-project:nth-child(3) {
-    margin: 0 16px 0 0;
-  }
+    .mr-masolov-project:nth-child(3) {
+        margin: 0 16px 0 0;
+    }
 
-  .mr-masolov-project:last-child {
-    margin: 0;
-  }
+    .mr-masolov-project:last-child {
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 900px) {
-  .mr-masolov-project {
-    width: calc(25% - 12px);
-  }
+    .mr-masolov-project {
+        width: calc(25% - 12px);
+    }
 
-  .mr-masolov-project:first-child {
-    margin: 0 16px 0 0;
-  }
+    .mr-masolov-project:first-child {
+        margin: 0 16px 0 0;
+    }
 
-  .mr-masolov-project:nth-child(2) {
-    margin: 0 16px 0 0;
-  }
+    .mr-masolov-project:nth-child(2) {
+        margin: 0 16px 0 0;
+    }
 
-  .mr-masolov-project:nth-child(3) {
-    margin: 0 16px 0 0;
-  }
+    .mr-masolov-project:nth-child(3) {
+        margin: 0 16px 0 0;
+    }
 }

@@ -1,12 +1,12 @@
 .mr-masolov-footer {
-  width: 100%;
-  background-color: #080f5b;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
+    width: 100%;
+    background-color: #080f5b;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
 }
 
 .mr-masolov-footer-inner {
-  max-width: 1200px;
-  padding: 16px;
-  margin: auto;
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
 }
