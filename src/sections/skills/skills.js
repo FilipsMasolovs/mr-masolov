@@ -3,7 +3,6 @@ import HTML from "./assets/html.png";
 import CSS from "./assets/css.png";
 import JS from "./assets/js.png";
 import REACT from "./assets/react.png";
-import PYTHON from "./assets/python.png";
 import GITHUB from "./assets/github.png";
 import SKETCH from "./assets/sketch.png";
 import WP from "./assets/wp.png";
