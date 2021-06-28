@@ -13,13 +13,8 @@ export default function Portfolio() {
                 </div>
             </div>
             <div className="mr-masolov-projects">
-                <Project
-                    title="GitaruBode.lv"
-                    description="This is a React.js based “Who Wants to Be a Millionaire?” type game, but about Visual Composer."
-                    backgroundImage={wwcve}
-                    liveSite="https://filipsmasolovs.github.io/who-wants-to-be-game/"
-                    gitHub="https://github.com/FilipsMasolovs/who-wants-to-be-game"
-                />
+                {/*TODO*/}
+                {/*Add another decent project*/}
                 <Project
                     title="WWVCE"
                     description="This is a React.js based “Who Wants to Be a Millionaire?” type game, but about Visual Composer."
