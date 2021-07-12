@@ -76,9 +76,6 @@ export default function Contacts(props) {
                 <div className="mr-masolov-contacts--map-wrapper">
                     <div>
                         <span>Filips Masolovs</span>
-                        <span>Liela iela 14-15</span>
-                        <span>Jelgava, Latvia</span>
-                        <span>LV-3001</span>
                     </div>
                 </div>
             </div>
