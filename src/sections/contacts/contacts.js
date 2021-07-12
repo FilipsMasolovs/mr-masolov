@@ -37,7 +37,7 @@ export default function Contacts(props) {
         <>
             <div className="mr-masolov-section-heading" id="contacts">
                 <div className="mr-masolov-section-heading-inner">
-                    <h2>Contacts</h2>
+                    <h2>Contact</h2><span>| Channels to drop me a line & get in touch</span>
                 </div>
             </div>
             <div className="mr-masolov-contacts">

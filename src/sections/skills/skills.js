@@ -22,7 +22,7 @@ export default class Skills extends React.Component {
             <>
                 <div className="mr-masolov-section-heading" id="skills">
                     <div className="mr-masolov-section-heading-inner">
-                        <h2>Skills</h2>
+                        <h2>Skills</h2><span>| Things I’m good at & comfortable with</span>
                     </div>
                 </div>
                 <div className="mr-masolov-skills">

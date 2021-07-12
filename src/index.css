@@ -32,6 +32,8 @@ body {
     padding: 16px;
     margin: auto;
     line-height: 30px;
+    display: flex;
+    gap: 4px;
 }
 
 body::-webkit-scrollbar {

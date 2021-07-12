@@ -32,7 +32,7 @@ export default function Header(props) {
                     Portfolio
                 </h3>
                 <h3 onClick={handleNavigationClick.bind(this, "skills")}>Skills</h3>
-                <h3 onClick={handleNavigationClick.bind(this, "contacts")}>Contacts</h3>
+                <h3 onClick={handleNavigationClick.bind(this, "contacts")}>Contact</h3>
             </div>
         );
     }
@@ -78,7 +78,7 @@ export default function Header(props) {
                         </h3>
                         <h3 onClick={handleNavigationClick.bind(this, "skills")}>Skills</h3>
                         <h3 onClick={handleNavigationClick.bind(this, "contacts")}>
-                            Contacts
+                            Contact
                         </h3>
                     </div>
                 </div>
