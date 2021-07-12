@@ -30,19 +30,91 @@ export default class Skills extends React.Component {
                         <div className="mr-masolov-skills--group-unit">
                             <h3>FRONTEND</h3>
                             <div className="mr-masolov-skills--logos">
-                                <img src={HTML} alt="HTML5" title="HTML5"/>
-                                <img src={CSS} alt="CSS3" title="CSS3"/>
-                                <img src={JS} alt="JavaScript" title="JavaScript"/>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={HTML} alt="HTML5" title="HTML5"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={CSS} alt="CSS3" title="CSS3"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={JS} alt="JavaScript" title="JavaScript"/>
+                                </div>
                             </div>
                         </div>
                         <div className="mr-masolov-skills--group-unit">
                             <h3>FRONTEND FRAMEWORKS</h3>
                             <div className="mr-masolov-skills--logos">
-                                <img src={REACT} alt="React.JS" title="React.JS"/>
-                                <img src={VUE} alt="Vue.JS" title="Vue.JS"/>
-                                <img src={SASS} alt="Sass" title="Sass"/>
-                                <img src={LESS} alt="Less" title="Less"/>
-                                <img src={POSTCSS} alt="PostCSS" title="PostCSS"/>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={REACT} alt="React.JS" title="React.JS"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={VUE} alt="Vue.JS" title="Vue.JS"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={SASS} alt="Sass" title="Sass"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={LESS} alt="Less" title="Less"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={POSTCSS} alt="PostCSS" title="PostCSS"/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -50,13 +122,31 @@ export default class Skills extends React.Component {
                         <div className="mr-masolov-skills--group-unit">
                             <h3>BACKEND</h3>
                             <div className="mr-masolov-skills--logos">
-                                <img src={NODE} alt="Node.JS" title="Node.JS"/>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={NODE} alt="Node.JS" title="Node.JS"/>
+                                </div>
                             </div>
                         </div>
                         <div className="mr-masolov-skills--group-unit">
                             <h3>BACKEND FRAMEWORKS</h3>
                             <div className="mr-masolov-skills--logos">
-                                <img src={EXPRESS} alt="Express.JS" title="Express.JS"/>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={EXPRESS} alt="Express.JS" title="Express.JS"/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -64,11 +154,56 @@ export default class Skills extends React.Component {
                         <div className="mr-masolov-skills--group-unit">
                             <h3>OTHER</h3>
                             <div className="mr-masolov-skills--logos">
-                                <img src={GITHUB} alt="GitHub" title="GitHub"/>
-                                <img src={GITLAB} alt="GitLab" title="GitLab"/>
-                                <img src={SKETCH} alt="Sketch" title="Sketch"/>
-                                <img src={WP} alt="WordPress" title="WordPress"/>
-                                <img src={BROWSERSTACK} alt="BrowserStack" title="BrowserStack"/>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={GITHUB} alt="GitHub" title="GitHub"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={GITLAB} alt="GitLab" title="GitLab"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={SKETCH} alt="Sketch" title="Sketch"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star"></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={WP} alt="WordPress" title="WordPress"/>
+                                </div>
+                                <div className="mr-masolov-skills--skill">
+                                    <div className="mr-masolov-skills--skill-level">
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star "></span>
+                                        <span className="fa fa-star"></span>
+                                    </div>
+                                    <img src={BROWSERSTACK} alt="BrowserStack" title="BrowserStack"/>
+                                </div>
                             </div>
                         </div>
                     </div>
