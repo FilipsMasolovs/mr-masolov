@@ -4,7 +4,7 @@
     padding: 16px;
     margin: auto;
     display: flex;
-    gap: 20px;
+    gap: 16px;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -15,7 +15,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 128px;
+    min-height: 128px;
+    gap: 8px;
 }
 
 .mr-masolov-skills img {
@@ -35,17 +36,18 @@
 .mr-masolov-skills--group {
     display: flex;
     flex-flow: wrap;
+    gap: 16px;
 }
 
 .mr-masolov-skills--group-unit {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 650px) {
     .mr-masolov-skills--group-unit {
-        width: 50%;
+        width: calc(50% - 8px);
     }
 }
