@@ -5,7 +5,7 @@ export default function Experience() {
         <>
             <div className="mr-masolov-section-heading" id="experience">
                 <div className="mr-masolov-section-heading-inner">
-                    <h2>Experience</h2><span>| Places I’ve gained my knowledge from</span>
+                    <h2>Experience</h2> | <h2>Places I’ve gained my knowledge from</h2>
                 </div>
             </div>
             <div className="mr-masolov-experience-block">

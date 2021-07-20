@@ -25,14 +25,14 @@ export default function Header(props) {
     if (isHamburgerActive) {
         hamburgerContent = (
             <div className="mr-masolov-navigation-inner--sandwich-menu-inner">
-                <h3 onClick={handleNavigationClick.bind(this, "experience")}>
+                <h4 onClick={handleNavigationClick.bind(this, "experience")}>
                     Experience
-                </h3>
-                <h3 onClick={handleNavigationClick.bind(this, "portfolio")}>
+                </h4>
+                <h4 onClick={handleNavigationClick.bind(this, "portfolio")}>
                     Portfolio
-                </h3>
-                <h3 onClick={handleNavigationClick.bind(this, "skills")}>Skills</h3>
-                <h3 onClick={handleNavigationClick.bind(this, "contacts")}>Contact</h3>
+                </h4>
+                <h4 onClick={handleNavigationClick.bind(this, "skills")}>Skills</h4>
+                <h4 onClick={handleNavigationClick.bind(this, "contacts")}>Contact</h4>
             </div>
         );
     }
@@ -70,16 +70,16 @@ export default function Header(props) {
                         {hamburgerContent}
                     </div>
                     <div className="mr-masolov-navigation-inner--menu">
-                        <h3 onClick={handleNavigationClick.bind(this, "experience")}>
+                        <h4 onClick={handleNavigationClick.bind(this, "experience")}>
                             Experience
-                        </h3>
-                        <h3 onClick={handleNavigationClick.bind(this, "portfolio")}>
+                        </h4>
+                        <h4 onClick={handleNavigationClick.bind(this, "portfolio")}>
                             Portfolio
-                        </h3>
-                        <h3 onClick={handleNavigationClick.bind(this, "skills")}>Skills</h3>
-                        <h3 onClick={handleNavigationClick.bind(this, "contacts")}>
+                        </h4>
+                        <h4 onClick={handleNavigationClick.bind(this, "skills")}>Skills</h4>
+                        <h4 onClick={handleNavigationClick.bind(this, "contacts")}>
                             Contact
-                        </h3>
+                        </h4>
                     </div>
                 </div>
             </div>

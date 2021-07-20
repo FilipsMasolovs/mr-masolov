@@ -84,7 +84,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px 0px;
 }
 
-.mr-masolov-navigation-inner--sandwich-menu-inner h3 {
+.mr-masolov-navigation-inner--sandwich-menu-inner h4 {
     margin: 8px;
 }
 
@@ -95,7 +95,7 @@
     align-items: center;
 }
 
-.mr-masolov-navigation-inner h3 {
+.mr-masolov-navigation-inner h4 {
     color: #15db95;
     cursor: pointer;
     text-decoration: none;
@@ -103,8 +103,8 @@
     margin-left: 16px;
 }
 
-.mr-masolov-navigation-inner h3:hover,
-.mr-masolov-navigation-inner h3:focus {
+.mr-masolov-navigation-inner h4:hover,
+.mr-masolov-navigation-inner h4:focus {
     color: #0d9464;
 }
 
