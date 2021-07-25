@@ -22,8 +22,10 @@ export default function Experience() {
                             </a>
                         </h3>
                         <h4>June 2021 - Present</h4>
-                        {/*TODO*/}
-                        {/*Add a description of what I did while working at ECENTA*/}
+                        <p>
+                            ECENTA is a company that brings perfectly integrated SAP Customer Experience solutions to its' clients.
+                            My job at ECENTA is not only as a developer, but also a technical consultant who is responcible for finding the best solutions from a business perspective and then implementing them.
+                        </p>
                     </div>
                     <a
                         className="company-logo"
@@ -54,8 +56,10 @@ export default function Experience() {
                             </a>
                         </h3>
                         <h4>August 2019 - June 2021</h4>
-                        {/*TODO*/}
-                        {/*Add a description of what I did while working at Visual Composer*/}
+                        <p>
+                            Visual Composer is a WordPress based plugin that utilizes a clean and simple drag and drop interface for easier and faster page creation.
+                            As a frontend developer at Visual Composer I worked with React.JS to bring new features and functionality to its' users.
+                        </p>
                     </div>
                     <a
                         className="company-logo"
