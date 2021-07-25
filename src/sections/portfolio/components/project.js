@@ -25,9 +25,11 @@ export default function Project(props) {
                                 GitHub
                             </a>
                         )}
-                        <a href={props.liveSite} target="_blank" rel="noreferrer">
-                            Live Site
-                        </a>
+                        {props.liveSite && (
+                            <a href={props.liveSite} target="_blank" rel="noreferrer">
+                                Live Site
+                            </a>
+                        )}
                     </div>
                 </div>
             </div>

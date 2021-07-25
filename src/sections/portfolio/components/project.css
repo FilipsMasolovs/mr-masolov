@@ -3,11 +3,6 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    margin: 0 0 16px 0;
-}
-
-.mr-masolov-project:last-child {
-    margin: 0;
 }
 
 .mr-masolov-project:hover h3::after {
@@ -87,38 +82,10 @@
     .mr-masolov-project {
         width: calc(50% - 8px);
     }
-
-    .mr-masolov-project:first-child {
-        margin: 0 16px 16px 0;
-    }
-
-    .mr-masolov-project:nth-child(2) {
-        margin: 0 0 16px 0;
-    }
-
-    .mr-masolov-project:nth-child(3) {
-        margin: 0 16px 0 0;
-    }
-
-    .mr-masolov-project:last-child {
-        margin: 0;
-    }
 }
 
 @media only screen and (min-width: 900px) {
     .mr-masolov-project {
         width: calc(25% - 12px);
-    }
-
-    .mr-masolov-project:first-child {
-        margin: 0 16px 0 0;
-    }
-
-    .mr-masolov-project:nth-child(2) {
-        margin: 0 16px 0 0;
-    }
-
-    .mr-masolov-project:nth-child(3) {
-        margin: 0 16px 0 0;
     }
 }

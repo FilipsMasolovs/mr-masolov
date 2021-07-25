@@ -1,5 +1,6 @@
 import "./portfolio.css";
 import Project from "./components/project";
+import github from "./assets/github.png";
 import KravasParvadajumi from "./assets/kravasparvadajumi.png";
 import webskola from "./assets/webskola.png";
 import wwcve from "./assets/wwvce.png";
@@ -30,10 +31,16 @@ export default function Portfolio() {
                 />
                 <Project
                     title="KravasParvadajumi.lv"
-                    description="My very first coded website. Basic HTML, CSS and some JS."
+                    description="My very first coded website. Made in autumn of 2019, just a couple months in my development journey. Basic HTML, CSS and some JS."
                     backgroundImage={KravasParvadajumi}
                     liveSite="http://www.kravasparvadajumi.lv/"
                     gitHub="https://github.com/FilipsMasolovs/grivika-kravas-parvadajumi"
+                />
+                <Project
+                    title="GitHub.com"
+                    description="Check out my GitHub! There are a few projects there, incluing this website! Maybe you want to contribute to some of them?"
+                    backgroundImage={github}
+                    gitHub="https://github.com/FilipsMasolovs"
                 />
             </div>
         </>
