@@ -63,7 +63,15 @@ export default function Contacts(props) {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <i className="fa fa-github fa-2x"/>{" "}
+                            <i className="fa fa-github fa-2x"/>
+                        </a>
+                        <a
+                            className="mr-masolov-contacts--social"
+                            href="https://profiles.wordpress.org/filipsmasolovs/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <i className="fa fa-wordpress fa-2x"/>
                         </a>
                     </p>
                     <p>
