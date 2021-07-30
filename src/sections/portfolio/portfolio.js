@@ -10,7 +10,7 @@ export default function Portfolio() {
         <>
             <div className="mr-masolov-section-heading" id="portfolio">
                 <div className="mr-masolov-section-heading-inner">
-                    <h2>Portfolio</h2> | <h2>Projects I’ve developed & proud of</h2>
+                    <h2>Portfolio</h2> | <h2>Projects I’ve developed & am proud of</h2>
                 </div>
             </div>
             <div className="mr-masolov-projects">

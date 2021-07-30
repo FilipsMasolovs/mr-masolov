@@ -80,12 +80,12 @@
 
 @media only screen and (min-width: 450px) {
     .mr-masolov-project {
-        width: calc(50% - 8px);
+        width: 50%;
     }
 }
 
 @media only screen and (min-width: 900px) {
     .mr-masolov-project {
-        width: calc(25% - 12px);
+        width: calc(100%/3);
     }
 }
