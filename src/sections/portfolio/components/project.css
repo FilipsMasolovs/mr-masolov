@@ -76,6 +76,11 @@
 .mr-masolov-project-inner--content-actions a svg {
     margin-right: 4px;
     fill: #ffffff;
+    transition: 0.4s ease;
+}
+
+.mr-masolov-project-inner--content-actions a:hover svg {
+    fill: #15db95;
 }
 
 @media only screen and (min-width: 450px) {
