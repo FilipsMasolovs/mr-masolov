@@ -48,13 +48,13 @@ export default function Header(props) {
                     <h1>My name is Filipp</h1>
                     <h3>I am a frontend developer.</h3>
                     <div className="mr-masolov-header-inner--accent1">
-                    <img src="http://ghchart.rshah.org/FilipsMasolovs" style={{width: '100%'}} alt="Name Your Github chart" />
+                        <img src="http://ghchart.rshah.org/FilipsMasolovs" style={{width: '100%'}} alt="Name Your Github chart" />
                     </div>
                     <div className="mr-masolov-header-inner--accent2">
-                    <img src="http://ghchart.rshah.org/FilipsMasolovs" style={{width: '100%'}} alt="Name Your Github chart" />
+                        <img src="http://ghchart.rshah.org/FilipsMasolovs" style={{width: '100%'}} alt="Name Your Github chart" />
                     </div>
                     <div className="mr-masolov-header-inner--accent3">
-                    <img src="http://ghchart.rshah.org/FilipsMasolovs" style={{width: '100%'}} alt="Name Your Github chart" />
+                        <img src="http://ghchart.rshah.org/FilipsMasolovs" style={{width: '100%'}} alt="Name Your Github chart" />
                     </div>
                 </div>
             </div>
