@@ -1,8 +1,62 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import KUTE from "kute.js";
 import "./header.css";
 
 export default function Header(props) {
     const [isHamburgerActive, handleHamburger] = useState(false);
+
+    useEffect(() => {
+        const firstPath = document.querySelector('#first-path-1')
+        if (firstPath) {
+            const firstPathKUTE = KUTE.fromTo(
+                '#first-path-1',
+                { path: '#first-path-1' },
+                { path: '#first-path-2' },
+                { repeat: 999, duration: 3000, yoyo: true }
+            )
+            firstPathKUTE.start();
+        }
+        const secondPath = document.querySelector('#second-path-1')
+        if (secondPath) {
+            const secondPathKUTE = KUTE.fromTo(
+                '#second-path-1',
+                { path: '#second-path-1' },
+                { path: '#second-path-2' },
+                { repeat: 999, duration: 3000, yoyo: true }
+            )
+            secondPathKUTE.start();
+        }
+        const thirdPath = document.querySelector('#third-path-1')
+        if (thirdPath) {
+            const thirdPathKUTE = KUTE.fromTo(
+                '#third-path-1',
+                { path: '#third-path-1' },
+                { path: '#third-path-2' },
+                { repeat: 999, duration: 3000, yoyo: true }
+            )
+            thirdPathKUTE.start();
+        }
+        const forthPath = document.querySelector('#forth-path-1')
+        if (forthPath) {
+            const forthPathKUTE = KUTE.fromTo(
+                '#forth-path-1',
+                { path: '#forth-path-1' },
+                { path: '#forth-path-2' },
+                { repeat: 999, duration: 3000, yoyo: true }
+            )
+            forthPathKUTE.start();
+        }
+        const fithPath = document.querySelector('#fith-path-1')
+        if (fithPath) {
+            const fithPathKUTE = KUTE.fromTo(
+                '#fith-path-1',
+                { path: '#fith-path-1' },
+                { path: '#fith-path-2' },
+                { repeat: 999, duration: 3000, yoyo: true }
+            )
+            fithPathKUTE.start();
+        }    
+    });
 
     const handleHamburgerClick = function (e) {
         e.currentTarget.classList.toggle("active");

@@ -100,31 +100,8 @@ body::-webkit-scrollbar-thumb {
     border-color: #0d9464;
 }
 
-.mr-masolov-greeting--accent1,
-.mr-masolov-greeting--accent2,
-.mr-masolov-greeting--accent3 {
+.mr-masolov-header-inner--accent {
     position: absolute;
-    background-color: #080f5b;
-
-    width: 200%;
-    height: 50%;
-
-    right: 0;
-}
-
-.mr-masolov-greeting--accent1 {
-    transform: skewY(-14deg);
-    top: calc(96% - 80px);
-    opacity: 0.2;
-}
-
-.mr-masolov-greeting--accent2 {
-    transform: skewY(-12deg);
-    top: calc(98% - 80px);
-    opacity: 0.4;
-}
-
-.mr-masolov-greeting--accent3 {
-    transform: skewY(-10deg);
-    top: calc(100% - 80px);
+    left: 0;
+    bottom: 0;
 }
