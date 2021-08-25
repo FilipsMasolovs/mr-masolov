@@ -31,6 +31,12 @@
     font-size: 2rem;
 }
 
+.mr-masolov-header-inner--accent {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 .mr-masolov-navigation {
     background-color: #080f5b;
     position: sticky;
@@ -50,7 +56,7 @@
     height: 4px;
     background-color: #ffffff;
     margin: 4px 0;
-    transition: 0.4s ease;
+    transition: .4s ease;
 }
 
 .mr-masolov-navigation-inner--sandwich-menu.active .bar1 {
@@ -99,7 +105,7 @@
     color: #15db95;
     cursor: pointer;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color .4s ease;
     margin-left: 16px;
 }
 
@@ -110,38 +116,25 @@
 
 .mr-masolov-navigation-inner--logo {
     width: 48px;
+    height: 48px;
     cursor: pointer;
+}
+
+.mr-masolov-navigation-inner--logo:hover rect,
+.mr-masolov-navigation-inner--logo:hover path {
+    transition: .4s ease;
+}
+
+.mr-masolov-navigation-inner--logo:hover rect {
+    stroke: #0d9464;
+}
+
+.mr-masolov-navigation-inner--logo:hover path {
+    fill: #0d9464;
 }
 
 .mr-masolov-navigation-inner--menu {
     display: none;
-}
-
-.mr-masolov-header-inner--accent1,
-.mr-masolov-header-inner--accent2,
-.mr-masolov-header-inner--accent3 {
-    position: absolute;
-    background-color: #080f5b;
-    width: 200%;
-    height: 50%;
-    right: 0;
-}
-
-.mr-masolov-header-inner--accent1 {
-    transform: skewY(-14deg);
-    top: 96%;
-    opacity: 0.2;
-}
-
-.mr-masolov-header-inner--accent2 {
-    transform: skewY(-12deg);
-    top: 98%;
-    opacity: 0.4;
-}
-
-.mr-masolov-header-inner--accent3 {
-    transform: skewY(-10deg);
-    top: 100%;
 }
 
 @media only screen and (min-width: 768px) {
