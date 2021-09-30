@@ -82,9 +82,7 @@ export default function Contacts(props) {
                     <ContactForm visitorName={props.visitorName}/>
                 </div>
                 <div className="mr-masolov-contacts--map-wrapper">
-                    <div>
-                        <span>Filips Masolovs</span>
-                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8979326.311605155!2d14.789861258475694!3d56.670493528307055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ef257b210ed5af%3A0x5d9da105e2ab7bb7!2sLoka%20ma%C4%A3istr%C4%81le%2023%2C%20Jelgava%2C%20LV-3004!5e0!3m2!1sen!2slv!4v1632997970449!5m2!1sen!2slv" width="100%" height="100%" style={{border:0}} title="MAP" loading="lazy"></iframe>
                 </div>
             </div>
         </>

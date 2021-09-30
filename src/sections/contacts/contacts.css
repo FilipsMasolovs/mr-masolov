@@ -56,21 +56,6 @@
     width: 100%;
 }
 
-.mr-masolov-contacts--map-wrapper {
-    padding: 16px;
-    background-image: url("./assets/map.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.mr-masolov-contacts--map-wrapper div {
-    display: inline-flex;
-    flex-direction: column;
-    background: rgba(0, 0, 0, 0.9);
-    color: #fff;
-    padding: 8px;
-}
-
 .mr-masolov-contacts--form-wrapper p {
     margin-bottom: 16px;
 }
