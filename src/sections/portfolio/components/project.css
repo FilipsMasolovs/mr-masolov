@@ -3,6 +3,12 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
+    transform: rotateY(90deg);
+    transition: transform 1s ease;
+}
+
+.mr-masolov-project.visible {
+    transform: rotateY(0);
 }
 
 .mr-masolov-project:hover h3::after {
@@ -87,10 +93,40 @@
     .mr-masolov-project {
         width: 50%;
     }
+    .mr-masolov-project:nth-child(2) {
+        transition-delay: .4s;
+    }
+    .mr-masolov-project:nth-child(3) {
+        transition-delay: .8s;
+    }
+    .mr-masolov-project:nth-child(4) {
+        transition-delay: 1.2s;
+    }
+    .mr-masolov-project:nth-child(5) {
+        transition-delay: 1.6s;
+    }
+    .mr-masolov-project:nth-child(6) {
+        transition-delay: 2s;
+    }
 }
 
 @media only screen and (min-width: 900px) {
     .mr-masolov-project {
         width: calc(100%/3);
+    }
+    .mr-masolov-project:nth-child(2) {
+        transition-delay: .5s;
+    }
+    .mr-masolov-project:nth-child(3) {
+        transition-delay: 1s;
+    }
+    .mr-masolov-project:nth-child(4) {
+        transition-delay: 1.5s;
+    }
+    .mr-masolov-project:nth-child(5) {
+        transition-delay: 2s;
+    }
+    .mr-masolov-project:nth-child(6) {
+        transition-delay: 2.5s;
     }
 }

@@ -1,6 +1,19 @@
 import "./project.css";
 
 export default function Project(props) {
+    const addVisibleClass = (element) => {
+        element.classList.add("visible");
+    }
+
+    document.addEventListener('scroll', () => {
+        const projects = document.querySelectorAll('.mr-masolov-project')
+        projects.forEach((project) => {
+            if ((project.getBoundingClientRect().bottom - (project.getBoundingClientRect().height / 2)) < window.innerHeight) {
+                addVisibleClass(project)
+              }
+        })
+    })
+
     return (
         <div
             className="mr-masolov-project"
